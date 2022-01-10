@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section>
+        <div class="header">
+            <p>Travel</p>
+            <div class="row">
+                <a href="#">
+                    Home
+                </a>
+                <a href="#">
+                    About
+                </a>
+            </div>
+        </div>
+        <div class="text">
+            <h2>Enjoy <br>&nbsp; Trip</h2>
+        </div>
+        <a href="#" class="play-video" onclick="document.getElementById('video').style.display = 'flex' ">
+            <img src="./play.png" alt="">
+            Play Video
+        </a>
+
+        <div class="follow">
+            <a href="#">
+                <img src="./twitter.png" alt="">
+            </a>
+            <a href="#">
+                <img src="./facebook.png" alt="">
+            </a>
+        </div>
+
+        <div class="video-area" id="video">
+            <video src="./video.mp4" controls></video>
+            <span class="clear" onclick="document.getElementById('video').style.display = 'none' ">&times;</span>
+        </div>
+
+    </section>
+</body>
+
+</html>
